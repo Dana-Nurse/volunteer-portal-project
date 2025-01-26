@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore compiled or temporary files
+*.log
+*.tmp
+echo .DS_Store >> .gitignore
+node_modules/
+.env
+*.log
+
