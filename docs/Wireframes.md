@@ -3,7 +3,7 @@
 This document provides an overview of the wireframes for the Volunteer Portal. The wireframes are hosted in Figma and other prototyping tools.
 
 ## 1. Home Page
-- **Wireframe**: [View Home Page Wireframe](TBC)
+- **Wireframe**: [View Home Page Wireframe](https://www.figma.com/board/C3wzjmMrYxsqqIuzMO5Uz5/volunteer-portal-project?node-id=0-1&p=f&t=htkbdbvyMwILKeLJ-0)
 - **Key Features**:
   - Header with navigation
   - Welcome message and CTA buttons
@@ -13,7 +13,7 @@ This document provides an overview of the wireframes for the Volunteer Portal. T
 ---
 
 ## 2. Volunteer Page
-- **Wireframe**: [View Volunteer Page Wireframe](TBC)
+- **Wireframe**: [View Volunteer Page Wireframe](https://www.figma.com/board/C3wzjmMrYxsqqIuzMO5Uz5/volunteer-portal-project?node-id=0-1&p=f&t=htkbdbvyMwILKeLJ-0)
 - **Key Features**:
   - Introduction to volunteering
   - Sign-Up form with volunteer interests
@@ -22,7 +22,7 @@ This document provides an overview of the wireframes for the Volunteer Portal. T
 ---
 
 ## 3. Corporate Page
-- **Wireframe**: [View Corporate Page Wireframe](TBC)
+- **Wireframe**: [View Corporate Page Wireframe](https://www.figma.com/board/C3wzjmMrYxsqqIuzMO5Uz5/volunteer-portal-project?node-id=0-1&p=f&t=htkbdbvyMwILKeLJ-0)
 - **Key Features**:
   - Introduction to corporate involvement
   - Volunteer opportunities for employees
@@ -31,7 +31,7 @@ This document provides an overview of the wireframes for the Volunteer Portal. T
 ---
 
 ## 4. Service Categories Page
-- **Wireframe**: [View Service Categories Wireframe](TBC)
+- **Wireframe**: [View Service Categories Wireframe](https://www.figma.com/board/C3wzjmMrYxsqqIuzMO5Uz5/volunteer-portal-project?node-id=0-1&p=f&t=htkbdbvyMwILKeLJ-0)
 - **Key Features**:
   - List of categories with descriptions (People with Different Abilities, The Elderly, etc.)
   - CTA buttons for volunteers to learn more or join opportunities
