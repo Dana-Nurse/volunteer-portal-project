@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from '../components/Header';  // Import the Header component from the components folder
+import Footer from '../components/Footer';  // Import the Footer component from the components folder
+import MainContent from '../components/MainContent';  // Import the MainContent component from the components folder
+
 
 function HomePage() {
     return (
         <div>
-            <h1>Welcome to Stage 1 of my Project</h1>
-            <p>This is placeholder for the future homepage content</p>
+            <Header />
+            <MainContent />
+            <Footer />
         </div>
     );
 };
