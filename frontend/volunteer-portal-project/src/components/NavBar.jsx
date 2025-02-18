@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 function NavBar() {
     return (
-    <nav>
-        <h2>My Project</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Volunteers</a></li>
-            <li><a href="#">Corporate</a></li>
-            <li><a href="#">Request</a></li>
-            <li><a href="#">Benefits</a></li>
-            <li><a href="#">Info</a></li>
-        </ul>
-    </nav>
-    );
+        <nav>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/volunteers">Volunteers</Link></li>
+                <li><Link to="/corporate">Corporate</Link></li>
+                <li><Link to="/support">Request Support</Link></li>
+                <li><Link to="/benefits">Benefits</Link></li>
+                <li><Link to="/info">Info</Link></li>
+            </ul>
+        </nav>
+        );
 }
 
 export default NavBar;
