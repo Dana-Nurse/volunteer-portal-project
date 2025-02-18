@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import NavBar from './components/NavBar';
@@ -13,17 +14,21 @@ import InfoPage from './pages/InfoPage';
 
 function App() {
   return (
-    <>
-      {/* <NavBar /> */}
-      <HomePage /> 
-      {/* <ServicesPage /> */}
-      {/* <VolunteersPage /> */}
-      {/* <CorporatePage /> */}
-      {/* <RequestSupportPage /> */}
-      {/* <BenefitsPage /> */}
-      {/* <InfoPage /> */}
-      {/* <Footer /> */}
-    </>
+    <Router>
+      <NavBar /> {/* This ensures the navbar appears on all pages */}
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/volunteers" element={<VolunteersPage />} />
+        <Route path="/corporate" element={<CorporatePage />} />
+        <Route path="/support" element={<RequestSupportPage />} />
+        <Route path="/benefits" element={<BenefitsPage />} />
+        <Route path="/info" element={<InfoPage />} />
+      </Routes>
+
+      <Footer /> {/* This ensures the footer appears on all pages */}
+    </Router>
   );
 }
 
