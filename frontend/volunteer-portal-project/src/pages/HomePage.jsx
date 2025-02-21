@@ -1,17 +1,16 @@
 import React from 'react';
-import Header from '../components/Header';  // Import the Header component from the components folder
-import Footer from '../components/Footer';  // Import the Footer component from the components folder
-import MainContent from '../components/MainContent';  // Import the MainContent component from the components folder
-
+import Header from '../components/Header';  
+import Footer from '../components/Footer';  
+import MainContent from '../components/MainContent';  
 
 function HomePage() {
     return (
         <div>
-            <Header />
+            <Header title="The Marinage Collective" description="Connecting Volunteers, Corporates, and Communities in Need." />
             <MainContent />
             <Footer />
         </div>
     );
-};
+}
 
 export default HomePage;
